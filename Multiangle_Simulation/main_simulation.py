@@ -77,7 +77,7 @@ num_spheres = 1300  # Number of spheres to generate
 a, b, c = 90, 90, 90  # Semi-axes of the ellipsoid within the 512 grid
 radius = 3  # Radius of spheres in pixels
 grid_size = 256  # Size of the ndarray
-RI = 1.1
+RI = 1.5
 
 # Initialize the grid
 grid = np.zeros((grid_size, grid_size, grid_size), dtype=np.uint8)
